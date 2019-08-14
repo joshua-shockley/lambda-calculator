@@ -5,3 +5,14 @@
     padding: 15px;
     margin: 0 auto;
 }
+
+.theDisplay {
+    background: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 15%;
+}

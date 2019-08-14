@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 
 const Display = () => {
   return (
-  <div className="thedisplay" >{"0"/* Display any props data here */}
+  <div className="theDisplay" >{"12345"/* Display any props data here */}
   
   </div>
   
