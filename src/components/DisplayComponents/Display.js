@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 
-const Display = () => {
+const Display = (props) => {
   return (
   <div className="theDisplay" >{"12345"/* Display any props data here */}
   

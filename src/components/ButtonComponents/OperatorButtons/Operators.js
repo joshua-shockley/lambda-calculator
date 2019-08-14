@@ -10,9 +10,8 @@ const Operators = (props) => {
 // const [buttonOperator, setOperator] = useState(operators);
 
   return (
-    <div>
-
-{operators.map(operator => <OperatorButton key={operator} text={operator}/>)}
+    <div className="opButtons_container">
+{operators.map(operator => <OperatorButton className="opButtons" key={operator} text={operator}/>)}
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
